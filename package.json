@@ -1,0 +1,20 @@
+{
+  "name": "awesome_app",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Pavel Dadykin",
+  "devDependencies": {
+    "express": "4.13.3"
+  },
+  "scripts": {
+    "prestart": "npm install"
+  },
+  "engines": {
+    "node": "5.1.0",
+    "npm": "3.4.1"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  },
+  "cacheDirectories": ["node_modules"]
+}

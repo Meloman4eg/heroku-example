@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+    
+
+    <link rel="stylesheet" href="/styles/app.css">
+	<title>cool thing</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="logo">
+            <img src="//www.simbirsoft.com.images.1c-bitrix-cdn.ru/bitrix/templates/.default/img/menu-logo.png?14134653129192" alt="main-logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a ui-sref="index">Главная</a></li>
+                <li><a ui-sref="users">ajax запрос</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="middle">
+        <ui-view></ui-view>
+    </div>
+
+    <script src="/scripts/vendor.js"></script>
+
+    <script src="/scripts/app.js"></script>
+</body>
+</html>
